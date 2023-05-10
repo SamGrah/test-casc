@@ -1,0 +1,10 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+flag: testFlag
+conditions:
+  - property:
+      name: String_Prop
+      operator: ne
+      operand: aa
+    value: false
+value: true
