@@ -9,5 +9,5 @@ conditions:
     value: false
   - type:
     condition:
-      flag: "otherflag"  
+      flag: "consumedFlag"  
 value: true
