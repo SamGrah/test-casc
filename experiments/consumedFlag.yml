@@ -1,4 +1,11 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 flag: consumedFlag
+conditions:
+  - property:
+      name: String_Prop
+      operator: in-array
+      operand:
+        - this_is_a_consumed_flag
+    value: false
 value: false
