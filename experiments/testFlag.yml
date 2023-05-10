@@ -4,6 +4,6 @@ flag: testFlag
 conditions:
   - dependency:
       flag: consumedFlag
-      value: 'false'
-    value: 101
+      value: 101
+    value: false
 value: true
