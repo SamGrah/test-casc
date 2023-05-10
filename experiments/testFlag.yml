@@ -7,4 +7,7 @@ conditions:
       operator: ne
       operand: aa
     value: false
+  - type:
+    condition:
+      flag: "otherflag"  
 value: true
