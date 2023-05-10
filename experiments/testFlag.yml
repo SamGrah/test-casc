@@ -4,6 +4,6 @@ flag: testFlag
 conditions:
   - dependency:
       flag: consumedFlag
-      value: "aa 09!"
+      value: 101.01
     value: false
 value: true
