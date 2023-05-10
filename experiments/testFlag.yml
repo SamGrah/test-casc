@@ -2,12 +2,8 @@
 type: experiment
 flag: testFlag
 conditions:
-  - property:
-      name: String_Prop
-      operator: ne
-      operand: aa
+  - dependency:
+      flag: consumedFlag
+      value: 'false'
     value: false
-  - type: flag
-    condition:
-      flag: "consumedFlag"  
 value: true
