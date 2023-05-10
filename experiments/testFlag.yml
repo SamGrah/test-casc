@@ -5,5 +5,5 @@ conditions:
   - dependency:
       flag: consumedFlag
       value: 'false'
-    value: false
+    value: 101
 value: true
