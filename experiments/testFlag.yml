@@ -4,6 +4,10 @@ flag: testFlag
 conditions:
   - dependency:
       flag: consumedFlag
-      value: true
+      value: 'true'
+    property:
+      name: Number_Prop
+      operator: lt
+      operand: 102
     value: false
 value: true
