@@ -4,7 +4,7 @@ flag: testFlag
 conditions:
   - dependency:
       flag: consumedFlag
-      value: 'true'
+      value: 101
     property:
       name: Number_Prop
       operator: lt
