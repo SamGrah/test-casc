@@ -1,0 +1,5 @@
+type: target-group
+name: GroupA
+conditions:
+  - operator: is-true
+    property: Bool_Prop
