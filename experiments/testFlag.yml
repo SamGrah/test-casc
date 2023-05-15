@@ -2,12 +2,7 @@
 type: experiment
 flag: testFlag
 conditions:
-  - dependency:
-      flag: consumedFlag
-      value: 101
-    property:
-      name: Number_Prop
-      operator: lt
-      operand: 102
+  - group:
+      name: GroupA
     value: false
 value: true
