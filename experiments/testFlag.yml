@@ -3,6 +3,15 @@ type: experiment
 flag: testFlag
 conditions:
   - group:
+      operator: nor
       name: GroupA
+    value: false
+  - dependency:
+      flag: consumedFlag
+      value: '101'
+    property:
+      name: Number_Prop
+      operator: lt
+      operand: 102
     value: false
 value: true
