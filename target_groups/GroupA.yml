@@ -1,5 +1,8 @@
 type: target-group
 name: GroupA
+operator: or
 conditions:
-  - operator: is-true
-    property: Bool_Prop
+  - operator: in-array
+    property: String_Prop
+    operand:
+      - '1'
