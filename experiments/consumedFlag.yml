@@ -2,24 +2,4 @@
 type: experiment
 enabled: false
 flag: consumedFlag
-conditions:
-  - property:
-      propertyConditions:
-        - operator: in-array
-          property: rox.language
-          operand:
-            - French
-        - operator: ne
-          property: String_Prop
-          operand: asdf
-        - operator: eq
-          property: Number_Prop
-          operand: 6
-    value:
-      - from: 2023-12-14T00:19:17.950Z
-        percentage: 0
-        option: true
-      - from: 2023-12-14T11:00:00.000Z
-        percentage: 100
-        option: true
-value: false
+value: true
