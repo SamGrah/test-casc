@@ -2,4 +2,10 @@
 type: experiment
 enabled: false
 flag: consumedFlag
+conditions:
+  - property:
+      name: Number_Prop
+      operator: lte
+      operand: 2
+    value: false
 value: false
