@@ -5,6 +5,10 @@ flag: consumedFlag
 conditions:
   - property:
       propertyConditions:
+        - operator: in-array
+          property: rox.language
+          operand:
+            - French
         - operator: ne
           property: String_Prop
           operand: asdf
