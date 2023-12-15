@@ -2,16 +2,22 @@
 type: experiment
 flag: testFlag
 conditions:
-  - group:
-      operator: nor
-      name: GroupA
-    value: false
-  - dependency:
-      flag: consumedFlag
-      value: '101'
-    property:
+  - property:
       name: Number_Prop
-      operator: lt
-      operand: 102
+      operator: lte
+      operand: 1
+    value: false
+  - group:
+      operator: and
+      name: GroupA
+    property:
+      propertyConditions:
+        - operator: is-undefined
+          property: Bool_Prop
+        - operator: in-array
+          property: String_Prop
+          operand:
+            - value1
+            - value2
     value: false
 value: true
