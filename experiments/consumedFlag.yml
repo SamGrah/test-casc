@@ -4,9 +4,13 @@ enabled: false
 flag: consumedFlag
 conditions:
   - property:
-      name: Number_Prop
-      operator: lte
-      operand: 2
+      propertyConditions:
+        - operator: gt
+          property: Number_Prop
+          operand: 3
+        - operator: lte
+          property: Number_Prop
+          operand: 2
     value:
       - percentage: 50
         option: true
