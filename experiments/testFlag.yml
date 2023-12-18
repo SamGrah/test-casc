@@ -3,21 +3,24 @@ type: experiment
 flag: testFlag
 conditions:
   - property:
-      name: Number_Prop
-      operator: lte
-      operand: 1
+      name: String_Prop
+      operator: regex
+      operand: value value
     value: false
-  - group:
-      operator: and
-      name: GroupA
-    property:
-      propertyConditions:
-        - operator: is-undefined
-          property: Bool_Prop
-        - operator: in-array
-          property: String_Prop
-          operand:
-            - value1
-            - value2
+  - property:
+      name: String_Prop
+      operator: in-array
+      operand:
+        - one of many
+        - two of many
+    value: false
+  - property:
+      name: String_Prop
+      operator: ne
+      operand: not value
+    value: false
+  - property:
+      name: String_Prop
+      operator: is-undefined
     value: false
 value: true
