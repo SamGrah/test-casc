@@ -8,6 +8,6 @@ conditions:
     property:
       name: Number_Prop
       operator: lte
-      operand: 102
+      operand: 101
     value: false
 value: true
