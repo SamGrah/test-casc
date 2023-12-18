@@ -12,7 +12,6 @@ conditions:
       operator: in-array
       operand:
         - one of many
-        - two of many
     value: false
   - property:
       name: String_Prop
