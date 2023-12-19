@@ -3,9 +3,8 @@ type: experiment
 flag: testFlag
 conditions:
   - property:
-      name: Number_Prop
-      operator: eq
-      operand: 6
+      name: Bool_Prop
+      operator: is-true
     value: false
   - property:
       name: Number_Prop
