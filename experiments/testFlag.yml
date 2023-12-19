@@ -4,6 +4,10 @@ flag: testFlag
 conditions:
   - property:
       name: Bool_Prop
+      operator: is-false
+    value: false
+  - property:
+      name: Bool_Prop
       operator: is-true
     value: false
   - property:
