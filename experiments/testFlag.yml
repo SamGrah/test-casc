@@ -4,6 +4,11 @@ flag: testFlag
 conditions:
   - property:
       name: Number_Prop
+      operator: gt
+      operand: 6
+    value: false
+  - property:
+      name: Number_Prop
       operator: lte
       operand: 6
     value: false
