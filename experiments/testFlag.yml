@@ -3,6 +3,11 @@ type: experiment
 flag: testFlag
 conditions:
   - property:
+      name: Number_Prop
+      operator: eq
+      operand: 6
+    value: false
+  - property:
       name: Bool_Prop
       operator: is-undefined
     value: false
