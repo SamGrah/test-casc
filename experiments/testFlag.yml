@@ -3,6 +3,40 @@ type: experiment
 flag: testFlag
 conditions:
   - property:
+      name: SemverName
+      operator: semver-eq
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: semver-ne
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: semver-lte
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: semver-lt
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: semver-gt
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: semver-gte
+      operand: '6'
+    value: false
+  - property:
+      name: SemverName
+      operator: is-undefined
+    value: false
+  - property:
       name: Bool_Prop
       operator: is-undefined
     value: false
