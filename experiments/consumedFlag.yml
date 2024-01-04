@@ -11,7 +11,8 @@ conditions:
       operator: eq
       operand: 7
     value: false
-  - group:
-      name: GroupA
+  - dependency:
+      flag: testFlag
+      value: 'true'
     value: false
 value: false
