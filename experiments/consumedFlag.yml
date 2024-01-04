@@ -2,10 +2,12 @@
 type: experiment
 flag: consumedFlag
 conditions:
-  - property:
-      name: String_Prop
-      operator: in-array
-      operand:
-        - this_is_a_consumed_flag
+  - group:
+      name:
+        - GroupA
+        - GroupB
+    value: false
+  - group:
+      name: GroupA
     value: false
 value: false
