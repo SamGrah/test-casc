@@ -10,3 +10,8 @@ conditions:
       name: Bool_Prop
       operator: is-true
     value: asdfasdf
+value:
+  - percentage: 50
+    option: asdfasdf
+  - percentage: 50
+    option: asdf
