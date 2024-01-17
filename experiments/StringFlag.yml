@@ -4,6 +4,7 @@ enabled: false
 flag: StringFlag
 availableValues:
   - asdfasdf
+  - asdf
 conditions:
   - property:
       name: Bool_Prop
