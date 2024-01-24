@@ -1,5 +1,11 @@
 type: target-group
 name: GroupB
 conditions:
-  - operator: is-true
-    property: Bool_Prop
+  - group:
+      name:
+        - GroupA
+      operator: all-groups
+  - group:
+      name:
+        - GroupA
+      operator: any-groups
