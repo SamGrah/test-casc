@@ -1,8 +1,7 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
-flag: Page
+flag: NodeSpecific
 availableValues:
-  - 3
-  - 2
-  - 1
-value: 3
+  - Yellow
+  - Green
+  - Blue
