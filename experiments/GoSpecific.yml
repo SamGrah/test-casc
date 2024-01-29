@@ -1,0 +1,7 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+flag: GoSpecific
+availableValues:
+  - Yellow
+  - White
+  - Blue
