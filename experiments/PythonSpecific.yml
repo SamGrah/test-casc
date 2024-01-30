@@ -1,9 +1,7 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
-flag: GoSpecific
+flag: PythonSpecific
 availableValues:
   - Yellow
-  - White
-  - Blue
   - Green
-value: White
+  - Blue
